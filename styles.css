@@ -82,8 +82,8 @@ nav ul li a {
 }
 
 .recipe img {
-    height: 300px;
-    width: auto;
+    height: auto;
+    width: 40%;
     border-radius: 5px;
 }
 
