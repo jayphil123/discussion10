@@ -4,14 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pets</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <a href = "#main-content">Skip to Main Content</a>
+    <a href = "#main-content" class="skip-link">Skip to Main Content</a>
     <header>
         <nav>
             <ul>
                 <li><a href = "index.html">Home</a></li>
-                <li><a href = "pets.html">Pets</a></li>
+                <li><a href = "pets.html" class="active">Pets</a></li>
                 <li><a href = "recipes.html">Recipes</a></li>
                 <li><a href = "travel.html">Travel</a></li>
             </ul>
@@ -19,68 +20,84 @@
     </header>
     <main id="main-content">
         <h1>Pets</h1>
-        <div>
-            <h2>Bacon Q Dog</h2>
-            <img src="images/bacon.jpg" width = "400" alt="Brown labradoodle wearing colorful lei">
+        <div class="recipe">
+            <div class="recipe-details">
+                <h2>Bacon Q Dog</h2>
+                <img src="images/bacon.jpg" width = "400" alt="Brown labradoodle wearing colorful lei">
+                <p>Bacon Q. Dog is a 9yr old labradoodle. He prefers to spend his days lounging among the three different beds/couches that his family has gifted him. He enjoys a walk or two around the neighborhood, as long as he can pretend that he doesn't see any of the other animals to avoid the embarrassment of not wanting to admit he has no wolf-like skills in chasing them.</p> 
+                <P>At night just as the rest of the family is ready to relax, Bacon suddenly wants to release all of his energy. He will place his toys on a mini couch and frantically drag the couch around, giving his toys "a ride." There is also a lot of rolling. Lots and lots of rolling.</P>
+            </div>
 
-            <p>Bacon Q. Dog is a 9yr old labradoodle. He prefers to spend his days lounging among the three different beds/couches that his family has gifted him. He enjoys a walk or two around the neighborhood, as long as he can pretend that he doesn't see any of the other animals to avoid the embarrassment of not wanting to admit he has no wolf-like skills in chasing them.</p> 
-            <P>At night just as the rest of the family is ready to relax, Bacon suddenly wants to release all of his energy. He will place his toys on a mini couch and frantically drag the couch around, giving his toys "a ride." There is also a lot of rolling. Lots and lots of rolling.</P>
-            <h3>Photo Gallery</h3>
-            <img src="images/bacon_bandana.JPG" width ="200" alt = "Brown labradoodle wearing an orange bandana">
-            <img src="images/bacon_graduation.JPG"  width ="200" alt="Small labradoodle puppy wearing a graduation cap and gown">
-            <video width="200"  controls>
-                <source src="images/bacon_agility.mov">
-                Your browser does not support the video tag.  This was a video of a girl and dog demonstrating a sit and stay procedure
-            </video>
-            <img src="images/bacon_halloween.JPG"  width ="200" alt="Brown labradoodle wearing a pirate costume">
-
-            <h3>Likes</h3>
-            <ul>
-                <li>Belly rubs</li>
-                <li>Playing tug-of-war</li>
-                <li>Sneaking onto the couch</li>
-            </ul>
-            <!-- Jackie Wolf -->
-        
+            <div class="recipe-instructions">
+                <h3>Likes</h3>
+                <ul>
+                    <li>Belly rubs</li>
+                    <li>Playing tug-of-war</li>
+                    <li>Sneaking onto the couch</li>
+                </ul>
+            </div>
         </div>
-        <div>
-            <h2>Quinn</h2>
-            <img src="images/Quinn_1.jpeg" width = "400" alt="Golden doodle struggling to get a sweater on">
-
-            <p>Introducing Quinn, the lively 2-year-old golden doodle with a heart full of boundless energy! Quinn's fur shines like spun gold, and her playful spirit is infectious. Whether she's chasing after a favorite squeaky toy or frolicking in the great outdoors, Quinn's zest for life is truly unmatched.</p> 
-            <P>Quinn is not just a furry friend; she's a social butterfly who loves making new pals at the dog park. Her wagging tail and friendly demeanor make her a beloved member of the canine community.</P>
-            <h3>Photo Gallery</h3>
-            <img src="images/Quinn_2.jpeg" width ="200" alt = "Golden Doodle jumping halfway up a door">
-            <img src="images/Quinn_3.jpeg"  width ="200" alt="Golden doodle sitting in the front seat of the car with her tounge out">
-            <img src="images/Quinn_4.jpeg"  width ="200" alt="Low angle shot of a golden doodle in pajamas">
-
-            <h3>Nicknames</h3>
-            <ul>
-                <li>Quinny Bear</li>
-                <li>Quinnward</li>
-                <li>John Quincy Adams</li>
-            </ul>
+        <div class="photo-gallery">
+            <div class="gallery-item">
+                <h3>Photo Gallery</h3>
+                <img src="images/bacon_bandana.JPG" alt="Brown labradoodle wearing an orange bandana">
+                <img src="images/bacon_graduation.JPG" alt="Small labradoodle puppy wearing a graduation cap and gown">
+                <img src="images/bacon_halloween.JPG" alt="Brown labradoodle wearing a pirate costume">
+            </div>
         </div>
-        <div>
-            <h2>Bailey</h2>
-            <img src="images/bailey_1.jpeg" width = "400" alt="Min-Pin sleeping on the couch in a santa outfit">
+        <div class="recipe">
+            <div class="recipe-details">
+                <h2>Quinn</h2>
+                <img src="images/Quinn_1.jpeg" width = "400" alt="Golden doodle struggling to get a sweater on">
 
-            <p>Meet Bailey, the wise and wonderful senior Miniature Pinscher who brings a calm and comforting presence to her household. At her age, Bailey has perfected the art of relaxation and can often be found gracefully lounging around the house, taking in the serenity of her surroundings.</p> 
-            <P>One of Bailey's greatest joys is basking in the warm embrace of the sun. You'll frequently find her seeking out the sunniest spots in the house, where she can soak up the rays and enjoy the gentle warmth on her fur. It's as if the sunshine itself brings out the best in this delightful Miniature Pinscher.</P>
-            <h3>Photo Gallery</h3>
-            <img src="images/bailey_2.jpeg" width ="200" alt = "Min-Pin sunbathing outside">
-            <img src="images/bailey_3.jpeg"  width ="200" alt="Min-Pin laying on the couch over a blanket">
-            <img src="images/bailey_4.jpeg"  width ="200" alt="Min-Pin laying on the couch looking alert">
+                <p>Introducing Quinn, the lively 2-year-old golden doodle with a heart full of boundless energy! Quinn's fur shines like spun gold, and her playful spirit is infectious. Whether she's chasing after a favorite squeaky toy or frolicking in the great outdoors, Quinn's zest for life is truly unmatched.</p> 
+                <P>Quinn is not just a furry friend; she's a social butterfly who loves making new pals at the dog park. Her wagging tail and friendly demeanor make her a beloved member of the canine community.</P>
+            </div>
 
-            <h3>Favorite places to lay</h3>
-            <ul>
-                <li>On the couch</li>
-                <li>In front of the screen door</li>
-                <li>Outside</li>
-            </ul>
+            <div class="recipe-instructions">
+                <h3>Nicknames</h3>
+                <ul>
+                    <li>Quinny Bear</li>
+                    <li>Quinnward</li>
+                    <li>John Quincy Adams</li>
+                </ul>
+            </div>
         </div>
-        <div></div>
-        <div></div>
+        <div class="photo-gallery">
+            <div class="gallery-item">
+                <h3>Photo Gallery</h3>
+                <img src="images/Quinn_2.jpeg" width ="200" alt = "Golden Doodle jumping halfway up a door">
+                <img src="images/Quinn_3.jpeg"  width ="200" alt="Golden doodle sitting in the front seat of the car with her tounge out">
+                <img src="images/Quinn_4.jpeg"  width ="200" alt="Low angle shot of a golden doodle in pajamas">
+            </div>
+        </div>
+        <div class="recipe">
+            <div class="recipe-details">
+                <h2>Bailey</h2>
+                <img src="images/bailey_1.jpeg" width = "400" alt="Min-Pin sleeping on the couch in a santa outfit">
+
+                <p>Meet Bailey, the wise and wonderful senior Miniature Pinscher who brings a calm and comforting presence to her household. At her age, Bailey has perfected the art of relaxation and can often be found gracefully lounging around the house, taking in the serenity of her surroundings.</p> 
+                <P>One of Bailey's greatest joys is basking in the warm embrace of the sun. You'll frequently find her seeking out the sunniest spots in the house, where she can soak up the rays and enjoy the gentle warmth on her fur. It's as if the sunshine itself brings out the best in this delightful Miniature Pinscher.</P>
+            </div>
+            
+            <div class="recipe-instructions">
+                <h3>Favorite places to lay</h3>
+                <ul>
+                    <li>On the couch</li>
+                    <li>In front of the screen door</li>
+                    <li>Outside</li>
+                </ul>
+            </div>
+        </div>
+        <div class="photo-gallery">
+            <div class="gallery-item">
+                <h3>Photo Gallery</h3>
+                <img src="images/bailey_2.jpeg" width ="200" alt = "Min-Pin sunbathing outside">
+                <img src="images/bailey_3.jpeg"  width ="200" alt="Min-Pin laying on the couch over a blanket">
+                <img src="images/bailey_4.jpeg"  width ="200" alt="Min-Pin laying on the couch looking alert">
+            </div>
+        </div>
+
     </main>
     
 </body>
