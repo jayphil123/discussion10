@@ -159,15 +159,15 @@ ol {
     }
 
     .recipe img:nth-child(1) {
-        cursor: url("../images/c++_logo.png"), pointer;
+        cursor: url("images/c++_logo.png"), pointer;
     }
 
     .recipe img:nth-child(2) {
-        cursor: url("../images/python_icon.png"), pointer;
+        cursor: url("images/python_icon.png"), pointer;
     }
 
     .recipe img:nth-child(3) {
-        cursor: url("../images/javascript_icon.png"), pointer;
+        cursor: url("images/javascript_icon.png"), pointer;
     }
 }
 
