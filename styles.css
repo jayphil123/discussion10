@@ -158,15 +158,15 @@ ol {
         font-size: 28px;
     }
 
-    .recipe img:nth-child(1) {
+    .recipe img:nth-child(3n) {
         cursor: url("images/c++_logo.png"), pointer;
     }
 
-    .recipe img:nth-child(2) {
+    .recipe img:nth-child(3n + 1) {
         cursor: url("images/python_icon.png"), pointer;
     }
 
-    .recipe img:nth-child(3) {
+    .recipe img:nth-child(3n + 2) {
         cursor: url("images/javascript_icon.png"), pointer;
     }
 }
