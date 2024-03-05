@@ -159,7 +159,7 @@ ol {
     }
 
     .recipe img:nth-child(1) {
-        cursor: url("../images/c_icon.webp"), pointer;
+        cursor: url("../images/c++_logo.png"), pointer;
     }
 
     .recipe img:nth-child(2) {
